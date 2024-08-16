@@ -1,0 +1,21 @@
+{
+  "name": "graph-processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "graph": "ts-node ./graph.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.13",
+    "graphviz": "^0.0.9",
+    "ts-node": "^10.9.2",
+    "webpack-stats-graph": "^1.0.8"
+  }
+}
